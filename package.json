@@ -1,0 +1,18 @@
+{
+  "name": "websockets-react-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'pnpm run-script client' 'pnpm run-script server'",
+    "client": "cd ./client && pnpm run-script dev",
+    "server": "cd ./server && pnpm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aleksandr Gerasimov <rainy_sky@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
